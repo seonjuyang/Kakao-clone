@@ -1,0 +1,51 @@
+body{
+    padding:0;
+    margin:0;
+    margin-top:100px;
+    height:1500px;
+}
+nav{
+    background-color: red;
+    height:100px;
+    width:100%;
+    position:fixed;
+    top:0px;
+    z-index: 1;
+}
+
+.box{
+    display:inline-block;
+    height:100%;
+    vertical-align: top;
+}
+
+.blueBox{
+    background-color: blue;
+    display: inline-block;
+    width:70%;
+}
+
+.blueBox h1{
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.yellowBox{
+    background-color: yellow;
+    display: inline-block;
+    width:28%;
+    height:100%;
+    border: 5px solid gray;
+    position:relative;
+}
+
+.greenBox{
+    background-color: green;
+    width: 100px;
+    height:50px;
+    position: absolute;
+    top:-30px;
+    left:-50px;
+    z-index: 2;
+}
